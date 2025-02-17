@@ -29,8 +29,9 @@ function navigateTo(page) {
   
   function showAudio(theme) {
     const audioData = {
-      creation: "adore_Dieu_b.mp3",
-      foi: "adore_Dieu_c.mp3"
+      creation: "AJR1.mp3",
+      foi: "AJR2.mp3",
+      foi: "AJR3.mp3"
     };
     
     document.getElementById("audio-player").src = audioData[theme];
