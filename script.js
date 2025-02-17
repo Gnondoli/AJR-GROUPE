@@ -29,9 +29,9 @@ function navigateTo(page) {
   
   function showAudio(theme) {
     const audioData = {
-      creation: "ajr_1.mp3",
-      foi: "ajr_2.mp3",
-      miracles: "ajr_3.mp3"
+      creation: "ajr_1.MP3",
+      foi: "ajr_2.MP3",
+      miracles: "ajr_3.MP3"
     };
     
     document.getElementById("audio-player").src = audioData[theme];
