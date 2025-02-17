@@ -43,8 +43,8 @@ function navigateTo(page) {
   
   function showVideo(theme) {
     const videoData = {
-      creation: "video/creation.mp4",
-      foi: "video/foi.mp4"
+      creation: "video/ajr_1.mp4",
+      foi: "video/ajr_2.mp4"
     };
   
     document.getElementById("video-player").src = videoData[theme];
