@@ -31,7 +31,7 @@ function navigateTo(page) {
     const audioData = {
       creation: "AJR1.mp3",
       foi: "AJR2.mp3",
-      foi: "AJR3.mp3"
+      miracles: "AJR3.mp3"
     };
     
     document.getElementById("audio-player").src = audioData[theme];
