@@ -4,8 +4,6 @@ const tracks = [
     { type: 'video', title: 'Ennemies de prière', src: 'enemie_priere.mp4', thumbnail: 'enemie_priere.jpg' },
     { type: 'video', title: 'La présence de Dieu', src: 'la_presence_de_Dieu.mp4', thumbnail: 'presence_de_Dieu.jpg' },
     { type: 'video', title: 'Tu as tout fait', src: 'Tu_as_tout_fait.mp4', thumbnail: 'enfants_jesus.jpg' },
-    { type: 'video', title: 'image de Dieu', src: 'ajr_1.mp4', thumbnail: 'video.jpg' },
-    { type: 'video', title: 'image de Dieu', src: 'ajr_2.mp4', thumbnail: 'video.jpg' },
     { type: 'audio', title: 'Amour de Dieu', src: 'a.mp3', thumbnail: 'music.jpg' },
     { type: 'audio', title: 'Combat', src: 'b.mp3', thumbnail: 'music.jpg' },
     { type: 'audio', title: 'Rendre grâce', src: 'c.mp3', thumbnail: 'music.jpg' },
