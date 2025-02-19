@@ -40,7 +40,7 @@ function navigateTo(page) {
       creation: "a.MP3",
       foi: "b.MP3",
       miracles: "c.MP3",
-      croyance: "croire_en_Dieu.MP3",
+      croyance: "croire_en_Dieu.mp3",
       colere: "La_colère.MP3"
     };
     
