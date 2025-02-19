@@ -41,7 +41,7 @@ function navigateTo(page) {
       foi: "b.MP3",
       miracles: "c.MP3",
       croyance: "croire.mp3",
-      colere: "colère.MP3"
+      colere: "colère.mp3"
     };
     
     document.getElementById("audio-player").src = audioData[theme];
