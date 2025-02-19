@@ -24,7 +24,15 @@ function navigateTo(page) {
         title: "La colere",
         text: "La colère et ses conséquences."
       },
-        pardon: {
+        pardonA: {
+        title: "Le pardon",
+        text: "Le pardon est important pour un chrétien"
+      },
+        pardonB: {
+        title: "Le pardon",
+        text: "Le pardon est important pour un chrétien"
+      },
+        pardonC: {
         title: "Le pardon",
         text: "Le pardon est important pour un chrétien"
       }
@@ -60,7 +68,9 @@ function navigateTo(page) {
     const videoData = {
       creation: "ajr_1.mp4",
       foi: "ajr_2.mp4",
-      pardon: "Pardon_a.mp4"
+      pardonA: "Pardon_a.mp4",
+      pardonB: "Pardon_b.mp4",
+      pardonC: "Pardon_b.mp4"
     };
   
     document.getElementById("video-player").src = videoData[theme];
