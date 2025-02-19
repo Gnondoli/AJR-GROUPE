@@ -60,7 +60,8 @@ function navigateTo(page) {
     const videoData = {
       creation: "ajr_1.mp4",
       foi: "ajr_2.mp4",
-      pardon: "Pardon_a.mp4"
+      pardon: "Pardon_a.mp4",
+      pardon: "Pardon_b.mp4"
     };
   
     document.getElementById("video-player").src = videoData[theme];
