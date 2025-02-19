@@ -23,6 +23,10 @@ function navigateTo(page) {
         colere: {
         title: "La colere",
         text: "La colère et ses conséquences."
+      },
+        pardon: {
+        title: "Le pardon",
+        text: "Le pardon est important pour un chrétien"
       }
     };
     
@@ -55,7 +59,8 @@ function navigateTo(page) {
   function showVideo(theme) {
     const videoData = {
       creation: "ajr_1.mp4",
-      foi: "ajr_2.mp4"
+      foi: "ajr_2.mp4",
+      pardon: "pardon_a.mp4"
     };
   
     document.getElementById("video-player").src = videoData[theme];
