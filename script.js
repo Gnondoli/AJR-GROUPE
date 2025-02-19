@@ -70,7 +70,7 @@ function navigateTo(page) {
       foi: "ajr_2.mp4",
       pardonA: "Pardon_a.mp4",
       pardonB: "Pardon_b.mp4",
-      pardonC: "Pardon_b.mp4"
+      pardonC: "Pardon_c.mp4"
     };
   
     document.getElementById("video-player").src = videoData[theme];
