@@ -15,6 +15,14 @@ function navigateTo(page) {
       miracles: {
         title: "Les Miracles de Jésus",
         text: "Les miracles accomplis par Jésus et leur signification."
+      },
+        croyance: {
+        title: "Croire en Dieu",
+        text: "Croire en Dieu fait de nous enfants de Dieu."
+      },
+        colere: {
+        title: "La colere",
+        text: "La colère et ses conséquences."
       }
     };
     
@@ -31,7 +39,9 @@ function navigateTo(page) {
     const audioData = {
       creation: "a.MP3",
       foi: "b.MP3",
-      miracles: "c.MP3"
+      miracles: "c.MP3",
+      croyance: "croire_en_Dieu.MP3",
+      colere: "La_colère.MP3"
     };
     
     document.getElementById("audio-player").src = audioData[theme];
