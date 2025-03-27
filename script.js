@@ -39,8 +39,11 @@ function navigateTo(page) {
         audace: {
         title: "Audace",
         text: "Un chrétien doit être audacieux"
+      },
+        urgence: {
+        title: "urgence",
+        text: "Urgence de évangile"
       }
-
     };
     
     document.getElementById("content-title").textContent = contentData[theme].title;
@@ -59,7 +62,8 @@ function navigateTo(page) {
       miracles: "c.MP3",
       croyance: "croire.mp3",
       colere: "colère.mp3",
-      audace: "audace.mp3"
+      audace: "audace.mp3",
+      urgence: "urgence.mp3"
     };
     
     document.getElementById("audio-player").src = audioData[theme];
