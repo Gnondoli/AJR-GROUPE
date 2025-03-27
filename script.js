@@ -35,7 +35,12 @@ function navigateTo(page) {
         pardonC: {
         title: "Le pardon",
         text: "Le pardon est important pour un chrétien"
+      },
+        audace: {
+        title: "Audace",
+        text: "Un chrétien doit être audacieux"
       }
+
     };
     
     document.getElementById("content-title").textContent = contentData[theme].title;
@@ -53,7 +58,8 @@ function navigateTo(page) {
       foi: "b.MP3",
       miracles: "c.MP3",
       croyance: "croire.mp3",
-      colere: "colère.mp3"
+      colere: "colère.mp3",
+      audace: "audace.mp3"
     };
     
     document.getElementById("audio-player").src = audioData[theme];
